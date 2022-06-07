@@ -1,0 +1,9 @@
+.accordion-button:not(.collapsed) {
+    background: #fff;
+}
+.accordion-button::after{
+    background-image: url(https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/f70f00178a7f0baa31e9c01634303d8562cfe93a/chatTalker_images/icon_plus.svg);
+}
+.accordion-button:not(.collapsed)::after {
+    background-image: url(https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/f70f00178a7f0baa31e9c01634303d8562cfe93a/chatTalker_images/icon_minus.svg);
+}
